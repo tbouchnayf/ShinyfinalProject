@@ -1,0 +1,19 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Tarik Bouchnayaf"
+date: "25 December 2018"
+output: ioslides_presentation
+---
+
+
+##Overview
+This is a shiny program whic target to work on the hight prediction of child based on his(her) parent's hight and his(her) rank in the family
+
+##Dataset
+The data we're using in this exercise is Galton Families, which is in the Rstudio env.
+
+```{r summary}
+library(HistData)
+data(GaltonFamilies)
+head(GaltonFamilies)
+```
